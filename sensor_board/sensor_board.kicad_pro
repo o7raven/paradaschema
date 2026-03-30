@@ -549,7 +549,7 @@
       "specctra_dsn": "",
       "step": "",
       "svg": "",
-      "vrml": ""
+      "vrml": "sensor_board.wrl"
     },
     "page_layout_descr_file": ""
   },

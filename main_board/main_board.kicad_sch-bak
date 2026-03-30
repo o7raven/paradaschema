@@ -11178,7 +11178,7 @@
 			)
 		)
 	)
-	(global_label "RUN"
+	(global_label "RST"
 		(shape output)
 		(at 104.14 69.85 90)
 		(fields_autoplaced yes)
@@ -11190,7 +11190,7 @@
 		)
 		(uuid "d7e30e68-1493-4814-abb4-9ef5d37303ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 62.9338 90)
+			(at 104.14 63.4177 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11244,7 +11244,7 @@
 			)
 		)
 	)
-	(global_label "RUN"
+	(global_label "RST"
 		(shape input)
 		(at 168.91 179.07 90)
 		(fields_autoplaced yes)
@@ -11256,7 +11256,7 @@
 		)
 		(uuid "e626a6ad-3b75-4e62-8ef5-2e1ba6319c6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 172.1538 90)
+			(at 168.91 172.6377 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14432,7 +14432,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
 			(at 116.84 184.15 0)
 			(effects
 				(font

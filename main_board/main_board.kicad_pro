@@ -60,7 +60,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "invalid_outline|66443600|38221200|59028e2b-16f9-4fc6-95d7-86c4810cf72b|7d1c4b2b-b93e-4aed-a2a7-91a001efb6cd",
+          ""
+        ],
+        [
+          "starved_thermal|77993600|75301200|a42b3ee1-3a6b-461d-b965-a09ce13accb9|11b7f980-8b27-4d7f-88df-d6cb499ce03f|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|77993600|75301200|a88dfabf-1c9f-430b-8164-334fd3159604|11b7f980-8b27-4d7f-88df-d6cb499ce03f|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|77993600|81251200|a42b3ee1-3a6b-461d-b965-a09ce13accb9|423fbfd6-bf6d-40bb-bf3a-31d2bce6955f|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|77993600|81251200|a88dfabf-1c9f-430b-8164-334fd3159604|423fbfd6-bf6d-40bb-bf3a-31d2bce6955f|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -196,6 +217,9 @@
       "track_widths": [
         0.0,
         0.15,
+        0.2,
+        0.3,
+        0.4,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -757,16 +781,16 @@
       {
         "filename": "main_board.kicad_sch",
         "name": "main_board",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "da0b0151-c8f0-462a-a322-0af166d59344"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H5-6,#PWR23,#PWR38-40,U3,C1-4,C11-22,R1-7,R10-13",
     "variants": []
   },
   "sheets": [
     [
       "da0b0151-c8f0-462a-a322-0af166d59344",
-      "Root"
+      "main_board"
     ]
   ],
   "text_variables": {},
